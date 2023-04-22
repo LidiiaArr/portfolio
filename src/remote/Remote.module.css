@@ -1,0 +1,29 @@
+.remoteBlock {
+    height: 50vh;
+    background-color: #fcdccf;
+}
+
+.remoteContainer {
+    flex-direction: column;
+    justify-content: flex-start
+}
+.title {
+    background-color: #f8eac0;
+}
+.button {
+    width: 180px;
+    height: 50px;
+    color: white;
+    background-color: #f56b1e;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+@media (max-width: 360px) {
+   .title {
+       font-size: 1.5em;
+       text-align: center;
+   }
+
+}

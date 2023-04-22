@@ -1,0 +1,36 @@
+.footerBlock {
+    height: 50vh;
+    background-color: #bbe1ff;
+}
+
+.skillsContainer {
+    display: flex;
+    flex-direction: column
+
+
+}
+.title {
+    background-color: #fafaa4;
+
+}
+
+.iconsContainer {
+    border: 1px solid;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.icon {
+    height: 60px;
+    width: 60px;
+    background-color: blueviolet;
+}
+
+@media (min-width: 360px) {
+    .iconsContainer {
+        width: 270px;
+    }
+
+}

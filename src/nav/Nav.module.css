@@ -1,0 +1,15 @@
+.nav{
+    border: 1px solid red;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10%;
+}
+
+@media (max-width: 365px) {
+    .nav {
+        margin-right: 5px;
+    }
+
+}
+

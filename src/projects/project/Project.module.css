@@ -1,0 +1,39 @@
+.project {
+    width: 400px;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.iconContainer {
+    width: 100%;
+    height: 170px;
+    display: flex;
+    justify-content: center
+}
+.icon {
+    height: 170px;
+    width: 170px;
+    background-color: #2be2d3;
+    /*background-image: url();*/
+    /*background-position: center;*/
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.button {
+    width: 78px;
+    height: 36px;
+    color: palevioletred;
+    background-color: #f8eac0;
+    border: none;
+    border-radius: 3px;
+}
+.title {
+
+}
+.description {
+
+}
