@@ -32,5 +32,10 @@
     .iconsContainer {
         width: 270px;
     }
+}
 
+@media (min-width: 320px) {
+    .iconsContainer {
+        width: 255px;
+    }
 }

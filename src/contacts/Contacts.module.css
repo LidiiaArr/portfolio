@@ -41,7 +41,62 @@
     background-color: #d7d5d5;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 1199px) {
+    .textarea {
+        width: 410px;
+        height: 125px;
+    }
+    .input {
+        width: 410px;
+        height: 36px;
+    }
+}
+
+@media (max-width: 991px) {
+    .textarea {
+        width: 405px;
+        height: 125px;
+    }
+    .input {
+        width: 405px;
+        height: 36px;
+    }
+}
+
+@media (max-width: 767px) {
+    .textarea {
+        width: 400px;
+        height: 125px;
+    }
+    .input {
+        width: 400px;
+        height: 36px;
+    }
+}
+
+@media (max-width: 575px) {
+    .textarea {
+        width: 333px;
+        height: 125px;
+    }
+    .input {
+        width: 333px;
+        height: 36px;
+    }
+}
+
+@media (max-width: 420px) {
+    .textarea {
+        width: 313px;
+        height: 125px;
+    }
+    .input {
+        width: 313px;
+        height: 36px;
+    }
+}
+
+@media (max-width: 400px) {
     .textarea {
         width: 282px;
         height: 125px;
@@ -51,3 +106,58 @@
         height: 36px;
     }
 }
+
+@media (max-width: 365px) {
+    .textarea {
+        width: 282px;
+        height: 125px;
+    }
+    .input {
+        width: 280px;
+        height: 36px;
+    }
+}
+
+@media (max-width: 320px) {
+    .textarea {
+        width: 255px;
+        height: 125px;
+    }
+    .input {
+        width: 255px;
+        height: 36px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/*@media (max-width: 376px) {*/
+/*    !*ширина меньше или равна 376*!*/
+/*    .textarea {*/
+/*        width: 282px;*/
+/*        height: 125px;*/
+/*    }*/
+/*    .input {*/
+/*        width: 280px;*/
+/*        height: 36px;*/
+/*    }*/
+/*}*/
+
+/*@media (min-width: 425px) {*/
+/*    !*ширина 425 и больше*!*/
+/*    .textarea {*/
+/*        width: 320px;*/
+/*        height: 125px;*/
+/*    }*/
+/*    .input {*/
+/*        width: 320px;*/
+/*        height: 36px;*/
+/*    }*/
+/*}*/
