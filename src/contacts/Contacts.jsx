@@ -4,7 +4,7 @@ import styleContainer from "../common/styles/Container.module.css";
 
 const Contacts = () => {
     return (
-        <div className={styles.contactsBlock}>
+        <section className={styles.contactsBlock}>
             <div className={`${styleContainer.container} ${styles.contactsContainer}`}>
                 <h2 className={styles.title}>Контакты</h2>
                 <div className={styles.formButtonContainer}>
@@ -23,7 +23,7 @@ const Contacts = () => {
 
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

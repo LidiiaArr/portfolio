@@ -3,7 +3,7 @@ import styles from "./Main.module.css"
 import styleContainer from "../common/styles/Container.module.css"
 const Main = () => {
     return (
-        <div className={styles.mainBlock}>
+        <section className={styles.mainBlock}>
             <div className={styleContainer.container}>
                 <div className={styles.text}>
                     <span>Привет</span>
@@ -12,7 +12,7 @@ const Main = () => {
                 </div>
                 <div className={styles.photo}></div>
             </div>
-        </div>
+        </section>
     );
 };
 

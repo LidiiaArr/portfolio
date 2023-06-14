@@ -5,7 +5,7 @@ import Project from "./project/Project";
 
 const Projects = () => {
     return (
-        <div className={styles.projectsBlock}>
+        <section className={styles.projectsBlock}>
             <div className={`${styleContainer.container} ${styles.projectsContainer}`}>
                 <h2 className={styles.title}>Мои проекты</h2>
                 <div className={styles.projects}>
@@ -16,7 +16,7 @@ const Projects = () => {
 
 
             </div>
-        </div>
+        </section>
     );
 };
 
