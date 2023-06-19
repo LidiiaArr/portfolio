@@ -9,5 +9,14 @@
     justify-content: space-between;
     flex-wrap: wrap;
     min-width: 320px;
+    /*???*/
+    /*padding-top: 45px;*/
+
+}
+
+@media (max-width: 760px) {
+    .container{
+        justify-content: center
+    }
 
 }

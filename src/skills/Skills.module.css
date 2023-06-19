@@ -1,13 +1,15 @@
 
 .skillsBlock {
     min-height: 100vh;
-    background-color: #dcfdf1;
+    background-color: #F8FAFD;
+
 }
 
 .skillsContainer {
     /*align-items: center;*/
     flex-direction: column;
     justify-content: flex-start;
+
 }
 
 .skills {
@@ -20,4 +22,11 @@
 }
 .title {
     background-color: #f8eac0;
+}
+
+@media (max-width: 760px) {
+    .skills{
+        justify-content: center
+    }
+
 }

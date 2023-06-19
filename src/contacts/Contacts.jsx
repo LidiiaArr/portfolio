@@ -10,16 +10,16 @@ const Contacts = () => {
                 <div className={styles.formButtonContainer}>
                     <form>
                         <div >
-                            <input className={styles.input}/>
+                            <input className={styles.input} type='text'/>
                         </div>
                         <div >
-                            <input className={styles.input}/>
+                            <input className={styles.input} type='text'/>
                         </div>
                         <div>
                             <textarea className={styles.textarea}></textarea>
                         </div>
                     </form>
-                    <button className={styles.button}>Отправить</button>
+                    <button type='submit' className={styles.button}>Отправить</button>
 
                 </div>
             </div>

@@ -1,11 +1,15 @@
 .project {
     width: 400px;
-    background-color: azure;
+    background-color: #EDF2FA;;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    border-radius: 10px;
+
+    border: 2px solid #E1E3E1;
 }
+
 .iconContainer {
     width: 100%;
     height: 170px;
@@ -13,27 +17,67 @@
     justify-content: center
 }
 .icon {
-    height: 170px;
-    width: 170px;
-    background-color: #2be2d3;
+    height: 200px;
+    width: 250px;
+    /*background-color: #2be2d3;*/
+    background-size: cover;
+    /*смотрит какая сторона широкая узкая сторается максимально вписать если не получается отрезает*/
+    background-position: center;
+    background-repeat: no-repeat;
     /*background-image: url();*/
     /*background-position: center;*/
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    position: relative;
+}
+
+.icon ::before {
+    position: absolute;
+    content: '';
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
 }
 
 .button {
     width: 78px;
     height: 36px;
-    color: palevioletred;
-    background-color: #f8eac0;
+    color: #001D35;
+    background-color: #C2E7FF;
     border: none;
     border-radius: 3px;
+    position: relative;
+    z-index: 1;
 }
-.title {
 
+.projectInfo {
+    padding: 20px;
+}
+
+.projectTitle{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    /*display: flex;*/
+    align-items: center;
+    color: #1F1F1F;
 }
 .description {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 160% */
 
+    display: flex;
+    align-items: center;
+
+    color: #444746;
 }
